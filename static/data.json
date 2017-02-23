@@ -1,0 +1,46 @@
+{
+    "NODE": {
+        "FrameType": "00",
+        "NetSelect": "LAN",
+        "LAN": {
+            "Mode": "dhcp",
+            "DHCP": {
+                "IP": "192.168.1.222",
+                "NetMask": "255.255.255.0",
+                "Gateway": "192.168.1.1",
+                "MAC": "DC:07:C1:00:DB:01"
+            },
+            "Static": {
+                "IP": "192.168.1.221",
+                "NetMask": "255.255.255.0",
+                "Gateway": "192.168.1.1",
+                "MAC": "DC:07:C1:00:DB:01"
+            }
+        },
+        "WIFI": {
+            "Mode": "dhcp",
+            "SSID": "ZHIHEANJIE",
+            "Passwd": "66806088",
+            "DHCP": {
+                "IP": "192.168.10.220",
+                "NetMask": "255.255.255.0",
+                "Gateway": "192.168.10.1",
+                "MAC": "DC:07:C1:00:DB:01"
+            },
+            "Static": {
+                "IP": "192.168.10.221",
+                "NetMask": "255.255.255.0",
+                "Gateway": "192.168.10.1",
+                "MAC": "DC:07:C1:00:DB:01"
+            }
+        },
+        "LTE": {
+            "LTEStr": "3",
+            "LTESta": "0",
+            "IP": "10.17.76.87",
+            "ComCorporation": "0",
+            "Union": "LTE-FDD",
+            "PhoneNum": "18611702344"
+        }
+    }
+}
